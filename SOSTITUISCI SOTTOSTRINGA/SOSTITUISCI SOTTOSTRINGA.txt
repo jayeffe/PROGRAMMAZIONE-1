@@ -1,0 +1,33 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+
+int main()
+{
+    int i;
+    int j;
+    char stringa[100];
+    char sottostringa[100];
+
+
+    printf("inserisci stringa \n");
+    scanf("%s",stringa);
+
+    printf("inserisci sottostringa \n");
+    scanf("%s",sottostringa);
+
+
+
+    for(i=0;stringa[i]!='\0';i++){
+        for(j=0;sottostringa[j]!='\0';j++){
+            if(stringa[i]==sottostringa[j]){
+               stringa[i]='*';
+
+
+            }
+        }
+    }
+    printf("la stringa sara' %s",stringa);
+    return 0;
+
+}

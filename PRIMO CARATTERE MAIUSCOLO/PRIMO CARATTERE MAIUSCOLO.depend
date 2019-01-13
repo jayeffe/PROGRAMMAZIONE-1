@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1543498959 source:c:\users\guido fonzo\desktop\c for assemby\primo carattere maiuscolo\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<ctype.h>
+
